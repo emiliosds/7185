@@ -33,7 +33,7 @@ class CartPage extends StatelessWidget {
                         height: 5,
                       ),
                       Text(
-                        "\$4200",
+                        "\$200",
                         style: TextStyle(
                           color: Theme.of(context).primaryColor,
                           fontWeight: FontWeight.bold,
@@ -75,18 +75,7 @@ class CartPage extends StatelessWidget {
 Widget productList(context) {
   return ListView(
     children: <Widget>[
-      productItem(context),
-      productItem(context),
-      productItem(context),
-      productItem(context),
-      productItem(context),
-      productItem(context),
-      productItem(context),
-      productItem(context),
-      productItem(context),
-      productItem(context),
-      productItem(context),
-      productItem(context),
+      productItem(context)
     ],
   );
 }
